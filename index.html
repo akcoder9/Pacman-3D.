@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="icon" href="https://mpng.subpng.com/20180710/lqu/kisspng-pac-man-smiley-computer-icons-clip-art-pacman-icons-5b450e81d5da48.822732051531252353876.jpg">
+
+    </head>
+    <body>
+        <div id="lives"></div>
+                <title>Pacman-3D</title>
+        <button id="help-button" onclick="var dialog = document.getElementById('help-dialog'); dialog.style.display = 'block';">HELP</button>
+
+        <div id="help-dialog" class="dialog">
+            <h2>CONTROLS</h2>
+
+            <p>Use Arrow Keys To Move</p>
+
+            <p>After you collect all of the dots, the game will start over but pacman and the ghosts will get a little bit faster!<p>
+
+            <button onclick="var dialog = document.getElementById('help-dialog'); dialog.style.display = 'none';">Close</button>
+        </div>
+
+        <script src="three.js"></script>
+        <script src="helvetiker_regular.typeface.js"></script>
+        <script src="game.js"></script>
+    </body>
+</html>
